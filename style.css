@@ -66,6 +66,8 @@ body {
     .art-list img {
         width: 90px;
         border-radius: 8px;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
     }
     section ul {
         display: flex;
@@ -101,4 +103,17 @@ body {
         width: 70px;
         border: 1px solid #443e54;
         border-radius: 999px;
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
     }
+
+    .insta-list:hover img{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+     }
+  
+     .art-list:hover img{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+     }
+     
