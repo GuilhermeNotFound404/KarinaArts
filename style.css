@@ -23,6 +23,7 @@ header img {
     padding-bottom: 4px;
     border-radius: 50%;
 }
+
 body {
     background-image: url(./assets/bg.jpg.png);
     background-position: top center;
@@ -32,8 +33,7 @@ body {
     backdrop-filter: blur(3px);   
 }
 
-
-     header img {
+   header img {
     width: 120px;
     height: 120px;
     background-image:linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
@@ -44,7 +44,7 @@ body {
     border-radius: 50%;
      }
 
-     header {
+ header {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -53,7 +53,7 @@ body {
         margin-top: 32px;
     } 
 
-    main {
+ main {
         max-width: 580px;
         width: 90%;
         margin: auto;
@@ -63,19 +63,19 @@ body {
         margin-top: 32px;
     }
     
-    .art-list img {
+.art-list img {
         width: 90px;
         border-radius: 8px;
         -webkit-transition: -webkit-transform .5s ease;
         transition: transform .5s ease;
     }
-    section ul {
+  section ul {
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
         margin-top: 24px;
     }
-    section div{
+ section div{
         padding: 24px 32px 32px;  
         background: #2a2634;
         border-radius: 8px;
@@ -117,3 +117,6 @@ body {
         transform: scale(1.1);
      }
      
+     .img-channel:hover img{
+        filter: drop-shadow(0 0 0.75rem crimson);
+     }
